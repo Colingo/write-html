@@ -1,0 +1,50 @@
+{
+  "name": "write-html",
+  "version": "0.1.0",
+  "description": "Write HTML in parts, <head> first, <body> later",
+  "keywords": [],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Colingo/write-html.git",
+  "main": "index",
+  "homepage": "https://github.com/Colingo/write-html",
+  "contributors": [
+    {
+      "name": "Raynos"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Colingo/write-html/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~1.0.2",
+    "request": "~2.21.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Colingo/write-html/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "testling": {
+    "files": "test/index.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/16..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  },
+  "private": true
+}
