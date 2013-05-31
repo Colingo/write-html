@@ -1,6 +1,6 @@
 {
   "name": "write-html",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Write HTML in parts, <head> first, <body> later",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
